@@ -14,15 +14,18 @@ This jQuery plugin can be added to an article page on your website to make the a
 
 ## How to Use:
 
-- Link accessStyle.css stylesheet in the head of your HTML document.
-- Add a div with a class of clearReadSwitch at the bottom of your HTML document before the closing body tag. This div holds the icon your user will click to bring up the access-a-read page.
-	
-	<div class="clearReadSwitch"></div>
+* Link accessStyle.css stylesheet in the head of your HTML document.
+* Add a div with a class of clearReadSwitch at the bottom of your HTML document before the closing body tag. This div holds the icon your user will click to bring up the access-a-read page.
 
--Link jQuery and the main.js file at the bottom of your HTML document in a script tag
+```
+<div class="clearReadSwitch"></div>
+```
 
-	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
-	<script src="clearRead.js"></script>
+* Link jQuery and the main.js file at the bottom of your HTML document in a script tag
+```
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+<script src="clearRead.js"></script>
+```
 
--In the stylesheet, the clearReadSwitch has been position fixed at the bottom of the page. If you would like to change the position of the icon feel free to change the bottom and right values.
+* In the stylesheet, the clearReadSwitch has been position fixed at the bottom of the page. If you would like to change the position of the icon feel free to change the bottom and right values.
 
