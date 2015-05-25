@@ -2,9 +2,54 @@
 <html lang="en">
 <head>
 	<meta charset="UTF-8">
-	<title>Kaleidoscope jQuery Plugin</title>
+	<title>Access-a-Read</title>
+	<link href='http://fonts.googleapis.com/css?family=Lato:400,700,900|Open+Sans:700,400,300' rel='stylesheet' type='text/css'>
+	<link rel="stylesheet" href="styles/style.css">
+	<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
 </head>
 <body>
+
+	<section class="enterPage">
+		<div class="wrapper rapperDelite">
+			<img src="images/whiteIcon.png" alt="access-a-read icon">
+			<h1>access - a - read</h1>
+			<p>A jQuery plugin to make articles on your website easy to read and distraction free.</p>
+			<div class="inputs">
+				<a href="example.html" class="input">view demo</a>
+				<a href="#" class="input">download</a>
+			</div>
+			<a href="#here"><i class="fa fa-arrow-circle-o-down"></i></a>
+		</div>
+	</section>
+<!-- end of landing page -->
+
+		<section class="instruc" id="here">
+			<div class="wrapper">
+				<h2>access - a - read</h2>
+				<h3>How to Use:</h3>
+					<ol>
+						<li>Download jQuery plugin <a href="https://github.com/jenthorn/accessibility-jquery-plugin">here.</a></li>
+						<li>Link accessStyle.css stylesheet in the head of your HTML document.</li>
+						<li><p>Add a div with a class of clearReadSwitch at the bottom of your HTML document before the closing body tag. This div holds the icon your user will click to bring up the access-a-read page.</p>
+							<pre><code>&lt;div class="clearReadSwitch"&gt;&lt;/div&gt;</code></pre>
+						</li>
+						<li><p>Link jQuery and the main.js file at the bottom of your HTML document in a script tag</p>
+						<pre><code>&lt;script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"&gt;&lt;/script&gt;
+
+&lt;script src="js/main.js"&gt;&lt;/script&gt;</code></pre>
+						</li>
+						<li>In the stylesheet, the clearReadSwitch has been position fixed at the bottom of the page. The icon will then be added to your page automatically!</li>
+					</ol>
+					<div class="pTags">
+						<p class="info">That's it! Your user will now be able to read the articles you've posted with ease and distraction free. </p>
+						<p class="info">Check out the demo by clicking the arrow below!</p>
+						<a href="example.html"><i class="fa fa-arrow-circle-o-down"></i></a>
+					</div>
+					</div>
+				</section>
+
+
+
 	
 </body>
 </html>
