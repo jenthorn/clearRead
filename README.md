@@ -3,7 +3,7 @@
 This jQuery plugin can be added to an article page on your website to make the article easier to read for your users. The example provided is strictly for a full page article. 
 
 ## Included:
-- An icon to position somewhere on your page to bring users to the access-a-read page (I've hard coded this icon in the css file, because I've set all other img tags to be display none.).
+- An icon to position somewhere on your page to bring users to the access-a-read page (The icon is encoded as a base64 url in the css file, because I've set all other img tags to be display none.).
 - A close button to bring back to the original page.
 - An example page to show what your page could look like before clicking into access-a-read.
 - An example page of what access-a-read will look like.
